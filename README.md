@@ -11,9 +11,10 @@
 # 使用方法
 
 ## 起動方法
-
+```
 docker build . -t wordpress-debian
 docker run -it wordpress-debian
+```
 
 # 補足
 * nginx, php-fpmについて、ansibleのserviceモジュールでの起動が出来なかったためcommandを利用している。
